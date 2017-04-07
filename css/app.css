@@ -1,0 +1,166 @@
+body{
+	background-color: #E39774;
+}
+
+.barra-navegacion{
+	padding-left: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, 0.3);
+	color: #fff;
+	font-size: 110%;
+
+
+}
+
+.item-barra{
+	padding: 1em 0em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.item-barra:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+i{
+	margin-right: .5em;
+}
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 75vh;
+	
+}
+
+.cuadro-peque{
+	background-color: #e0e0e0;
+	display: flex;
+	flex-direction: column;
+	padding: 6vh 3.5vh;
+	width: 80vw;
+
+}
+
+
+
+.cuadro-fila{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-bottom: 2em;
+	font-family: 'Questrial';
+
+}
+
+.cuadro-fila2{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	font-weight: bold;
+	font-family: 'Questrial';
+
+}
+
+img{
+	height: 10vh;
+	border-radius: 3em;
+	margin: 0 1em;
+}
+
+.cita{
+	border-left: 5px solid #ee6e73;
+	height: 8vh;
+	padding-left: 1em;
+
+}
+
+footer{
+	height: 15vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #81114d;
+	color: #fff;
+
+}
+
+.content-footer{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	height: 100%;
+	align-items: center;
+	width: 100vw;
+	
+	
+}
+
+
+
+@media (min-width: 576px) { 
+
+	.cuadro-peque{
+		width: 60vw;
+	}
+
+	.item-barra
+	{
+		padding: 1em .8em;
+	}
+
+	.barra-navegacion{
+		justify-content: space-around;
+	}
+
+	
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+	
+	.cuadro-peque{
+		width: 28vw;
+	}
+
+	.content-footer{
+		width: 40vw;
+	
+	}
+
+	
+}
+
+
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+
+.barra-navegacion{
+	font-size: 130%;
+}
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+	
+
+
+ }
